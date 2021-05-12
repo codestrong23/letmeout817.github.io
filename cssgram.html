@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>WEB1 - CSS</title>
+    <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><a href="index.html">WEB</a></h1>
+    <div id="grid">
+    <ol>
+        <li><a href="1.html" class="saw">1. HTML</a></li>
+        <li><a href="2.html" class="saw" id="active"; style="color:blue;">2. CSS</a></li>
+        <li><a href="3.html">3. JavaScript</a></li>
+    </ol>
+<div id="article">
+<h2>
+ 1. 웹페이지 안에 CSS 태그를 사용하는 방법: CSS Selector   
+</h2>
+
+    <p>1. style 태그를 쓴 뒤, 선택자 {}를 부여한다</p>
+    <p>2. style 속성을 사용해 직접 html 태그에 속성을 부여한다</p>
+
+<h3>
+    선택자(Selector)란?
+</h3>
+<p>
+    <img src="https://www.nextree.co.kr/content/images/2021/01/yrkim-140327-selector-04.png" width="70%">
+</p> 
+<h2>
+        2. class 지정과 선택자
+    </h2>
+    <img src="https://blog.kakaocdn.net/dn/dp1zEW/btqKmoCUjod/8XFtbbEBzfTQ3FMuZMJVw0/img.png">
+    <p>
+        class를 지정한다는 것은 곧 그룹을 지정한다는 의미를 나타낸다.<br>태그에 클래스를 지정하여 그룹을 형성하고 해당 그룹에 속성을 부여할 수 있다. <br><strong>이를 통해 자신이 원하는 태그를 정교하게 targeting할 수 있다</strong>
+    </p>
+    
+    <p>
+    class 값에는 여러 개가 사용될 수 있으며 띄어쓰기로 구분한다. 이때 가장 뒤에 있는, <br>즉 우선순위가 높은 클래스 값에 속성이 부여된다.<br><strong>EX) class="saw active"라고 할때 saw와 active 각각에 속성을 부여할 수 있다.</strong>
+    </p>
+        <h3>
+            a. id값 지정
+        </h3>
+        <p> class에 id값을 지정하면 순서 상관없이 id값이 부여된 클래스에 속성이 부여된다.</p>
+        <p>
+        문법: id를 지정한 후 style 태그에서 <strong>#OO{font-size:10px;}</strong> 와 같은 형식으로 속성을 부여한다</p>
+        <h3>
+            b. <u>우선순위</u>
+        </h3>
+        <p><strong>inline 값> id값 > class 값 > 태그</strong><br> 조금 더 구체적인 값에 우선순위를 둔다.</p>
+        </div>
+    </div>
